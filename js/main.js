@@ -82,7 +82,7 @@ function setUpdateform(ele) {
   productcatgoery.value = product_data[ele].catgoery;
   productdesc.value = product_data[ele].description;
   add_btn.innerHTML = `Update Product`;
-  deletProduct(ele);
+  
 }
 
 function updateProdcut() {
